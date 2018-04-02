@@ -9,6 +9,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "massive": "^4.7.1",
+    "nodemon": "^1.17.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
@@ -19,5 +20,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:3005"
 }
